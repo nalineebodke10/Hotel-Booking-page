@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Booking</title>
+</head>
+
+<body>
+    <br><br>
+    <center>
+
+        <div>
+            <div>
+                <img src="image1.jpg" alt="hotel-img" height="110px" />&nbsp;&nbsp;&nbsp;&nbsp;
+                <img src="image2.jpg" alt="hotel-img" height="110px" />&nbsp;&nbsp;&nbsp;&nbsp;
+                <img src="image3.jpg" alt="hotel-img" height="110px" />
+            </div>
+            <fieldset style="width: 512px; margin-top: 20px;">
+
+                <h1 style="margin: 0px; margin-top: 20px;">Hotel Booking</h1>
+                Experience something new every moment
+
+                <br><br>
+
+                <form action="">
+                    <label for="Full-Name"><b>Full Name: </b></label>
+                    <input type="text" placeholder="First Name" id="Full-Name">
+                    <input type="text"
+                        placeholder="Last Name">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+                    <br><br>
+
+                    <label for="Email"><b>Email: </b></label>
+                    <input type="email" placeholder="ex: myname@gmail.com" id="email" required>&nbsp;&nbsp;&nbsp;&nbsp;
+
+                    <label for="Phone-Number"><b>Phone Number: </b></label>
+                    <input type="" placeholder="000-000-0000" id="Phone-Number" required>&nbsp;&nbsp;
+
+                    <br><br>
+
+                    <label for="Room-Type"><b>Room Type: </b></label>
+                    <select id="Room-Type">
+
+                        <option>Single</option>
+                        <option>Double</option>
+                        <option>Triple</option>
+                        <option>Queen</option>
+                        <option>King</option>
+                    </select>
+
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+                    <label for="Number-Of-Guests"><b>Number Of Guests: </b></label>
+                    <input type="number" placeholder="" id="Number-Of-Guests" required>
+
+                    <br><br>
+
+                    <label for="Arrival-Date"><b>Arrival Date: </b></label>
+                    <input type="date" id="Arrival-Date" required>
+
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+                    <label for="Arrival-Time"><b>Time: </b></label>
+                    <input type="time" id="Arrival-Time" required>
+
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+                    <br><br>
+
+                    <label for="Departure-Date"><b>Departure Date: </b></label>
+                    <input id="Departure-Date" list="Month-List" placeholder="Please select a month">
+                    <datalist id="Month-List">
+                        <option>January</option>
+                        <option>February</option>
+                        <option>March</option>
+                        <option>April</option>
+                        <option>May</option>
+                        <option>Jun</option>
+                        <option>Jult</option>
+                        <option>August</option>
+                        <option>Septmber</option>
+                        <option>Actober</option>
+                        <option>November</option>
+                        <option>December</option>
+                    </datalist>
+
+                    <input id="Departure-Date" list="Day-List"  placeholder="Please select a day">
+                    <datalist id="Day-List">
+                        <option>Sunday</option>
+                        <option>Monday</option>
+                        <option>Tuesday</option>
+                        <option>Wednesday</option>
+                        <option>Thursday</option>
+                        <option>Friday</option>
+                        <option>Saturday</option>
+                    </datalist>
+
+                    <select id="Departure-Date">
+                        <option>2024</option>
+                        <option>2025</option>
+                    </select>
+
+                    <br><br>
+
+                    <label for="upload-Photo"><b>Upload Your Adharcard: </b></label>
+                    <input type="file" id="upload-Photo" accept="application/pdf" required>
+
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+                    <br><br>
+
+                    <b>Free Pickup?</b> 
+                    
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <br> <br>
+                    
+                    <input type="radio" name="free-pickup" id="yes-please" required>
+                    <label for="yes-please">Yes Please- Pick me up on arrival</label>
+
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+                    <br>
+
+                    <input type="radio" name="free-pickup" id="no-thanks" required>
+                    <label for="no-thanks">No Thanks- I,ll will make my own way there</label>
+
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+                    <br><br>
+
+                    <label for="special-request"><b>Special Requests:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </b> </label>
+                    <br>
+                    <input id="special-request" type="text" style="height: 80px; width: 480px;">
+
+                    <br><br>
+
+                    <button>
+                        Submit
+                    </button>
+
+                    <br>
+                </form>
+            </fieldset>
+        </div>
+        <br><br><br>
+
+    </center>
+</body>
+
+</html>
